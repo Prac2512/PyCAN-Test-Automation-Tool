@@ -1,0 +1,5 @@
+# requirements.txt
+python-can
+matplotlib
+pandas
+Pillow # Optional: If you use images with Tkinter, though not strictly needed for this basic version
