@@ -52,26 +52,26 @@ Python
 # config.py
 
 # CAN Interface Configuration
-# ---------------------------
-# For testing without hardware (recommended for initial setup):
+
+ For testing without hardware (recommended for initial setup):
 CAN_CHANNEL = 'my_virtual_can' # Can be any string name for the virtual bus
 CAN_BUSTYPE = 'virtual'        # Use 'virtual' for a software-only simulation
 CAN_BITRATE = 500000           # Bitrate (e.g., 500 kbps). Less relevant for virtual bus.
 
-# For real hardware example (e.g., SocketCAN on Linux):
-# CAN_CHANNEL = 'can0'
-# CAN_BUSTYPE = 'socketcan'
-# CAN_BITRATE = 500000
+ For real hardware example (e.g., SocketCAN on Linux):
+ CAN_CHANNEL = 'can0'
+ CAN_BUSTYPE = 'socketcan'
+ CAN_BITRATE = 500000
 
-# For real hardware example (e.g., Peak-CAN on Windows):
-# CAN_CHANNEL = 'PCAN_USBBUS1' # Or whatever your PCAN Channel name is
-# CAN_BUSTYPE = 'pcan'
-# CAN_BITRATE = 500000
+ For real hardware example (e.g., Peak-CAN on Windows):
+ CAN_CHANNEL = 'PCAN_USBBUS1' # Or whatever your PCAN Channel name is
+ CAN_BUSTYPE = 'pcan'
+ CAN_BITRATE = 500000
 
-# Logging Configuration
-# ---------------------
+ Logging Configuration
+ ---------------------
 LOG_FILE_PATH = 'can_log.csv'
-# LOG_FORMAT defines the columns in your CSV log file. Adjust as needed.
+ LOG_FORMAT defines the columns in your CSV log file. Adjust as needed.
 LOG_FORMAT = [
     'timestamp', 'arbitration_id', 'is_extended_id', 'is_remote_frame',
     'is_error_frame', 'dlc', 'data'
@@ -145,10 +145,7 @@ Make your changes.
 Commit your changes (git commit -m 'Add new feature').
 Push to the branch (git push origin feature/YourFeatureName).
 Open a Pull Request.
-License
-This project is open-source and available under the MIT License.
 
 Contact
 Your Name: Prachi Patil
-GitHub: [Link to your GitHub profile or project repository]
 Email: patilprachi2598@gmail.com
