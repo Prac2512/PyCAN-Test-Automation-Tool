@@ -147,5 +147,5 @@ Push to the branch (git push origin feature/YourFeatureName).
 Open a Pull Request.
 
 Contact
-Your Name: Prachi Patil
+Name: Prachi Patil
 Email: patilprachi2598@gmail.com
